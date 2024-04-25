@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MERKINFRA</title>
+    <link rel="shortcut icon" href="img/fevicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/contact-form.css" />
+    <link rel="stylesheet" href="styles/body.css" />
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/contactbtn.css">
+  </head>
+  <body>
+    <header >
+      <nav>
+        <div class="logo"><img src="img/logo-2.png" alt="logo" /></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="contactno" ><a id="contactno" href="tel:+91-9695899599">+91-9695899599</a></div>
+      <div class="menu-toggle">&#9776;</div>
+    </header>
+    <div id="home"></div>
+    <div class="call"><a href="tel:+91-9695899599"><img src="img/call-icon.png" alt=""></a></div>
+    <div class="whatsapp"><a  href="https://wa.me/9695899599"><img src="img/whatsapp-icon.webp" alt=""></a></div>
+    <main>
+      <!-- containerA -->
+      <div class="containerA" >
+        <div class="backgroundA"><!-- containerA background -->
+                <h1> <span>Discover </span> Seamless Connectivity & Limitless Potential <span>at</span>  Kokapet</h1>
+        </div>
+        <!-- containerA contact-from-1 div -->
+        <div class="form">
+          <div class="form-main">
+            <h1>We are waiting for you, contact us</h1>
+            <form
+              action="send_email.php"
+              method="post"
+              id="myForm"
+              onsubmit="return validateForm()"
+            >
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="budget">Budget:</label>
+              <select name="budget" id="budget" required>
+                <option value="" selected>select budget</option>
+                <option value="Less then 1 crore">Less then 1 crore</option>
+                <option value="1 crore - 3 crore">1 crore - 3 crore</option>
+                <option value="3 crore - 5 crore">3 crore - 5 crore</option>
+                <option value="Above 5 crore">Above 5 crore</option>
+              </select>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+
+        </div><!-- containerA contact-from-1 div end -->
+        <!-- contact button and whatsapp icon -->
+
+
+      </div> <!-- containerA ends -->
+
+      <!-- containerB grid -->
+      <div class="containerB">
+        <div class="box">
+            <div class="content">
+                <h3>00</h3>
+                <p>PROJECTS DELIVERED</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h3>00</h3>
+                <p>(Years)</p>
+                <p>INDIVIDUAL EXPERIENCE</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h3>00</h3>
+                <p>ONGOING PROJECTS</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h3>00,000</h3>
+                <p>(sqft.)</p>
+                <p>UNDER CONSTRUCTION</p>
+            </div>
+        </div>
+        
+    </div>
+    <!-- containerB end -->
+    <!-- containerC -->
+    <div class="containerC">
+        <div class="contentA">
+            <div class="card 1">
+                <div class="img">
+                    <img src="img/contC-A-card1.jpg" alt="">
+                </div>
+                <div class="lines">
+                    <h2>Floors</h2>
+                    <p>Ground + 9</p>
+                </div>
+            </div>
+            <div class="card 2">
+                <div class="img">    
+                    <img src="img/contC-A-card2.png" alt="">
+                </div>
+                <div class="lines">
+                    <h2>Area</h2>
+                    <p>5.82 Lakh Sqft</p>
+                </div>
+            </div>
+            <div class="card 3">
+                <div class="img">
+                    <img src="img/contC-A-card3.jpg" alt="">
+                </div>
+                <div class="lines">
+                    <h2>Return On Investment</h2>
+                    <p> Up to 9% ROI</p>
+                </div>
+            </div>
+          </div>
+          <div class="contentB">
+            <div class="card 1">
+                <div class="img">
+                    <img src="img/contC-B-card1.png" alt="">
+                </div>
+                <div class="lines">
+                    <h2>Parking</h2>
+                    <p>6 Parking Levels</p>
+                </div>
+            </div>
+            <div class="card 2">
+                <div class="img">
+                    <img src="img/contC-B-card2.avif" alt="">
+                </div>
+                <div class="lines">
+                    <h2> Parking Spaces</h2>
+                    <p>950 Spaces</p>
+                </div>
+            </div>
+            <div class="card 3">
+                <div class="img"> 
+                    <img src="img/contC-B-card3.png" alt="">
+                </div>
+                <div class="lines">
+                    <h2>Loan Facility For</h2>
+                    <p>Lockable Spaces</p>
+                </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- containerC end -->
+
+        <!-- containerD -->
+        <div class="containerD">
+          <div class="elementA">
+            <h2 id="hA1">About us</h2>
+            <div class="imgA">
+              <!-- <img src="/img/contD-el-1.webp" alt=""> -->
+            </div>
+            <div class="aboutus">
+              <div class="linesA">
+                <h2 id="hA2">About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nam pariatur ex dignissimos reiciendis temporibus eius eum iusto voluptas tempora veritatis magni adipisci, officia praesentium vel aut incidunt atque omnis esse nulla reprehenderit quisquam! Magni magnam repellat deleniti doloribus incidunt nisi fugit dolorum blanditiis. lorem44</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- containerD end -->
+        <!-- containerE -->
+        <div class="containerE">
+          <h2 id="hE1">Why Us?</h2>
+            <div id="elementBox">
+              <div class="box_" id="boxX">
+                <div class="img" id="imgE1">
+                  <img src="img/contE-b-1.png" alt="" width="80px">
+                </div>
+                <div class="linesE" id="imgE1" >
+                  <h2>SAFETY AND SECURITY: </h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet distinctio nisi assumenda accusantium nulla quisquam repellendus fuga exercitationem illum repellat.</p>
+                </div>
+              </div>
+              <div class="box_" id="boxY">
+                <div class="img" id="imgE2">
+                  <img src="img/contE-b-2.png" alt="" width="80px">
+                </div>
+                <div class="linesE" id="imgE2">
+                  <h2>COMPLIANT DESIGN: </h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim est iusto eos facere, repudiandae quos vel doloribus quas dolorum!</p>
+                </div>
+                
+              </div>
+              <div class="box_" id="boxZ">
+                <div class="img" id="imgE3">
+                  <img src="img/contE-b-3.png" alt="" width="80px">
+                </div>
+                <div class="linesE" id="imgE3">
+                  <h2>HIGHLY EFFICIENT AND OPEN LAYOUT: </h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero delectus maxime perspiciatis nisi dignissimos in sequi perferendis, optio eligendi cumque!</p>
+                </div>
+  
+              </div>
+            </div>
+        </div>
+        <!-- containerE end here -->
+
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <div class="footer">
+          <div class="footer-logo" id="footerA"><img src="img/logo-1.png" alt="logo" width="100%"></div>
+          <div class="linksF" id="footerA">
+            <div class="link_box" >
+              <h2>Quick Links</h2>
+              <ul id="ulfooter">
+                <li><a href="#home">Home</a></li>
+                <li><a href="/aboutus">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="footerA">
+            <h2>Contact</h2>
+            <div class="contact"><a id="contactno" href="tel:+91-9695899599">+91-9695899599</a></div>
+            <div class="email"><a href="mailto:contact@merkinfra.com">contact@merkinfra.com</a></div>
+
+          </div>
+          <div class="address" id="footerA">
+            <h2>Address</h2>
+            <div class="addressA"><p>HD005, Wework  RMZ Spire, Madhapur, shilpagram craft village. Hitech City,  Hyderabad 500081</p></div>
+          </div>
+        </div>
+        <div class="copyright"><p>Copyright &copy; 2024 merkinfra. All rights reserved</p></div>
+      </footer>
+
+      <!-- footer ends -->
+      
+    <script src="scripts/header.js"></script>
+    <script src="scripts/contact.js"></script>
+  </body>
+</html>
