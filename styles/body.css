@@ -371,26 +371,26 @@ body{
 }
 #boxX:hover{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-1.jpg") no-repeat;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-1.jpg") no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-1.jpg") no-repeat;
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-1.jpg") no-repeat;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
     background-size: cover;
 }
 #boxY:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
     background-size: cover;
 }
 #boxZ:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
     background-size: cover;
 }
 #boxX:hover > .linesE , #boxY:hover > .linesE , #boxZ:hover > .linesE{
@@ -404,7 +404,7 @@ body{
     .backgroundA {
         height: 220px;
         width: 100%;
-        background: url("/img/contA-1.jpg") no-repeat;
+        background: url("/project2/img/contA-1.jpg") no-repeat;
         background-position: center;
     }
     .form{
@@ -479,28 +479,28 @@ body{
         width: 80vw;
     }
     .containerE #boxX{
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-1.jpg") no-repeat;
-        background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-1.jpg") no-repeat;
-        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-1.jpg") no-repeat;
-        background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-1.jpg") no-repeat;
-        background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-1.jpg") no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
+        background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
+        background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-1.jpg") no-repeat;
         background-size: cover;
     }
     #boxY{
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
-        background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
-        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
-        background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
-        background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-2.jpg") no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
+        background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
+        background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-2.jpg") no-repeat;
         
         background-size: cover;
     }
     #boxZ{
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
-        background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
-        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
-        background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
-        background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/contE-bg-3.jpg") no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
+        background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
+        background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/project2/img/contE-bg-3.jpg") no-repeat;
         background-size: cover;
     }
     #imgE3,#imgE2,#imgE1 {
