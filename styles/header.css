@@ -1,0 +1,74 @@
+:root{
+    --bs-gold: #e08010;
+    --bs-blue: #012a59;
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    /* width: 100vw; */
+}
+.logo img{
+    font-size: 1.5em;
+    height: 50px;
+}
+nav {
+    display: flex;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.nav-links li {
+    margin-right: 20px;
+}
+.nav-links li a {
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+}
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.contactno #contactno{
+    color: rgb(96, 96, 96);
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .contactno{
+        display: none;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #ffffff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .nav-links li:last-child {
+        margin-bottom: 0;
+    }
+    .menu-toggle {
+        display: block;
+    }
+}
