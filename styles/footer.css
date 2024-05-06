@@ -1,9 +1,9 @@
-:root{
+/* :root{
     --bs-gold: #e08010;
     --bs-blue: #012a59;
-    --bs-bluehover: #044691;
-    
-}
+    --bs-bluehover: #044691;   
+} */
+
 footer{
     color: white;
     display: flex;

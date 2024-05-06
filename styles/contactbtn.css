@@ -1,8 +1,8 @@
-:root{
+/* :root{
     --bs-gold: #e08010;
     --bs-blue: #012a59;
     
-}
+} */
 .call{
     height: 35px;
     width: 35px;
@@ -31,6 +31,28 @@
     height: 35px;
     width: 35px;
 }
+#anchor1 .directHome{
+    height: 30px;
+    width: 30px;
+    float: left;
+    position: fixed;
+    background: var(--bs-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transform: rotateZ(-90deg);
+    top: 675px;
+    left: 5px;
+    z-index: 6;
+    cursor: pointer;
+    border: 1px solid white;
+}
+#anchor1{
+    color: white;
+    text-decoration: none;
+
+}
 @media screen and (max-width: 961px) {
     .call,.whatsapp{
         width: 25px;
@@ -39,6 +61,13 @@
     .call img,.whatsapp img{
         height: 25px;
         width: 25px;
+    }
+    #anchor1 .directHome{
+        height: 30px;
+        width: 30px;
+        top: 575px;
+        
+        
     }
     
 }
